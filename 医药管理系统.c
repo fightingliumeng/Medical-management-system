@@ -7,5 +7,14 @@
 
 void main(void)
 {
-	printf("¡ı√ŒŒ¨");
+	int a,b,t;
+	printf("please intput a,b\n");
+	scanf("%d %d",&a,&b);
+	t=a;
+	a=b;
+	b=t;
+	
+	printf("%d %d\n",a,b);
+	
+		
 }
